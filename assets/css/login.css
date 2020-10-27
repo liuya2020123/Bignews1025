@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/login_bg.jpg);
+    /* 给中间的小河子定位到中间 */
+    /* position: relative; */
+}
+.logo  {
+    /* 在登录得时候显示正常，注册得时候图标就不正常 */
+    margin-left: 130px;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+
+    /* padding: 18px  0;
+text-align: center; */
+
+}
+.login, .register{
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 类名要选对 */
+
+.login {
+    margin-left: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.register{
+    margin-left: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.register .myForm .log{
+    text-align: center;
+}
+
+.myForm{
+padding: 0px  30px;
+}
+/* 给字体图标定位 */
+ .myForm .layui-form-item {
+    position: relative;
+}
+
+ .myForm .layui-icon {
+    position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+ .myForm input{
+     padding-left: 30px;
+ }
+
+.login a{
+    float: right;
+}
+
+.register a {
+    float: right;
+}
+
+.register{
+    /* display:block; */
+    display: none;
+ }
+
+
+/* 
+.login {
+    display:block;
+    display: none;
+}    */
